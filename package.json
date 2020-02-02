@@ -1,0 +1,29 @@
+{
+  "name": "@chriswa/eslint-config-ts-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "np"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.17.0",
+    "eslint-config-eslint": "^5.0.1"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-vue": "^6.1.2"
+  },
+  "devDependencies": {
+    "np": "^5.2.1"
+  }
+}

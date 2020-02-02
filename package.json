@@ -1,12 +1,15 @@
 {
   "name": "@chriswa/eslint-config-ts-vue",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "publish": "np"
   },
+  "files": [
+    "index.js"
+  ],
   "publishConfig": {
     "access": "public"
   },
